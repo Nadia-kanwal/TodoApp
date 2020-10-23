@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "hello/",
+			"problemMatcher": [
+				"$go"
+			],
+			"label": "npm: start - hello",
+			"detail": "react-scripts start"
+		}
+	]
+}
