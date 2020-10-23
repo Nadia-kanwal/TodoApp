@@ -62,8 +62,6 @@ return(
       <Row>
         <Col>
         <Table striped bordered hover variant ="dark" >
-         
-          <tbody>
           <thead >
           <tr>
 
@@ -74,6 +72,7 @@ return(
          
           </tr>
           </thead> 
+          <tbody>
             {tasks.map(spell =>(
               <tr key = {spell.id}>
                 <td>{spell.id}</td>
